@@ -4,7 +4,7 @@
       <router-view />
     </div>
 
-    <Footer v-if="!hideFooter" />
+    <Footer />
   </div>
 </template>
 
@@ -15,5 +15,4 @@ import Footer from './components/layout/Footer.vue'
 
 const route = useRoute()
 
-const hideFooter = computed(() => ['/login', '/signup'].includes(route.path))
 </script>

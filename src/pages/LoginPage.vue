@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-900 flex items-center justify-center p-10">
-    <div class="max-w-[900px] px-6 py-20 text-center bg-gray-800 rounded-3xl shadow-lg p-10 w-full">
+    <div class="max-w-[900px] px-6 py-20 text-center bg-gray-800 rounded-3xl shadow-lg w-full">
       <h1 class="text-2xl font-bold text-blue-400">Welcome Back</h1>
       <p class="text-md text-blue-400">Enter your email and password to access your account</p>
 

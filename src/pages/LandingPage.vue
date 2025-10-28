@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen bg-gray-900 text-white">
-    <header class="max-w-[1440px] mx-auto px-6 py-4">
-      <nav class="flex justify-between items-center">
+    <header class="border-b border-gray-800">
+      <nav class="flex justify-between items-center max-w-[1440px] mx-auto px-4 py-4">
         <h1 class="font-bold text-blue-400 text-2xl">TicketFlow</h1>
         <div class="flex gap-4">
           <button
@@ -78,7 +78,9 @@
             <div
               class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4"
             >
-              <span class="text-2xl text-green-700">✓</span>
+            <<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Easy Creation</h3>
             <p class="text-gray-600">
@@ -92,7 +94,9 @@
             <div
               class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4"
             >
-              <span class="text-2xl text-yellow-700">⚡</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">
               Real-time Updates
@@ -108,7 +112,9 @@
             <div
               class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
             >
-              <span class="text-2xl text-blue-700">📊</span>
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M9 17v-6m6 6V9" />
+              </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Analytics</h3>
             <p class="text-gray-600">
